@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="site-title"><span class="red">Peniel</span><span class="gold">&</span><span class="blue">Great's </span>Journal</h1>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section id="entry-editor" class="content-section">
+            <div class="container">
+                <h2 class="section-heading">Create Entry</h2>
+                <form id="entry-form" class="entry-form">
+                    <div class="form-group">
+                        <label for="entry-title" class="form-label">Title:</label>
+                        <input type="text" id="entry-title" class="form-input" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="entry-content" class="form-label">Content:</label>
+                        <textarea id="entry-content" class="form-textarea" rows="5" required></textarea>
+                    </div>
+            
+                    <button type="submit" class="form-button">Save Entry</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="entry-list" class="entry-list">
+            <div class="container">
+                <!-- Entry cards will be dynamically generated here -->
+            </div>
+        </section>
+
+        <section id="entry-details" class="entry-details">
+            <div class="container">
+                <!-- Entry details will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <p>Email: <br> penielpam@gmail.com</p> <br>
+                    <p>Whatsapp: <br>+234-814-399-3261
+
+                    </p>
+                </div>
+        
+                <div class="footer-section">
+                    <h3 class="footer-heading">Follow Us</h3>
+                    <ul class="social-links">
+                        <li><a href="https://github.com/penielpam" class="social-link">Github</a></li>
+                        <li><a href="https://instagram.com/peniel.jeff/" class="social-link">Instagram</a></li>
+                    </ul>
+                </div>
+        
+            </div>
+        
+            <p class="footer-copyright">© 2023 <span class="red">Peniel</span><span class="gold">&</span><span class="blue">Great's </span>Journal </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
