@@ -1,5 +1,7 @@
 # The Journal App
 
+![pgj-logo](https://github.com/penielpam/Journal-app/assets/117779595/0172e2eb-20a3-4e45-b179-3e59d1f28f71)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Inspiration](#inspiration)
